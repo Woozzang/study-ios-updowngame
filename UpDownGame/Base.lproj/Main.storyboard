@@ -25,6 +25,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9zQ-9o-DH1">
                                 <rect key="frame" x="433" y="262" width="30" height="30"/>
                                 <state key="normal" title="Hit!"/>
+                                <connections>
+                                    <action selector="touchUpHitButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4yl-5V-wKb"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -37,6 +40,10 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Zc7-S7-JtT" secondAttribute="trailing" constant="40" id="wCo-aZ-u1S"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="hitButton" destination="9zQ-9o-DH1" id="qCo-wW-HRB"/>
+                        <outlet property="slider" destination="Zc7-S7-JtT" id="ydc-AK-Fs3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
