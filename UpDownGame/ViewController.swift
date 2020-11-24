@@ -98,6 +98,7 @@ class ViewController: UIViewController {
     
     /*
      Check UserValue is correct
+     This function have no side-effects
      */
     func isCorrect() -> Bool {
         if  Int(slider.value) == randomValue {

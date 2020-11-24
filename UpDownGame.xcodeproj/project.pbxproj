@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE776AA6256CCD5A00ABF358 /* CreditViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE776AA5256CCD5A00ABF358 /* CreditViewContoller.swift */; };
 		AEEA77FA254340140094B418 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEA77F9254340140094B418 /* AppDelegate.swift */; };
 		AEEA77FC254340140094B418 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEA77FB254340140094B418 /* SceneDelegate.swift */; };
 		AEEA77FE254340140094B418 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEA77FD254340140094B418 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE776AA5256CCD5A00ABF358 /* CreditViewContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditViewContoller.swift; sourceTree = "<group>"; };
 		AEEA77F6254340140094B418 /* UpDownGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UpDownGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEEA77F9254340140094B418 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEEA77FB254340140094B418 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				AEEA77F9254340140094B418 /* AppDelegate.swift */,
 				AEEA77FB254340140094B418 /* SceneDelegate.swift */,
 				AEEA77FD254340140094B418 /* ViewController.swift */,
+				AE776AA5256CCD5A00ABF358 /* CreditViewContoller.swift */,
 				AEEA77FF254340140094B418 /* Main.storyboard */,
 				AEEA7802254340160094B418 /* Assets.xcassets */,
 				AEEA7804254340160094B418 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE776AA6256CCD5A00ABF358 /* CreditViewContoller.swift in Sources */,
 				AEEA77FE254340140094B418 /* ViewController.swift in Sources */,
 				AEEA77FA254340140094B418 /* AppDelegate.swift in Sources */,
 				AEEA77FC254340140094B418 /* SceneDelegate.swift in Sources */,

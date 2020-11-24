@@ -78,9 +78,12 @@
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                     </preferredSymbolConfiguration>
                                 </state>
+                                <connections>
+                                    <segue destination="8wI-Za-xe4" kind="presentation" id="ZY1-3I-gdL"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9zQ-9o-DH1">
-                                <rect key="frame" x="434" y="286" width="28" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9zQ-9o-DH1">
+                                <rect key="frame" x="434" y="270" width="28" height="31"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <color key="tintColor" systemColor="systemYellowColor"/>
                                 <state key="normal">
@@ -132,11 +135,79 @@
             </objects>
             <point key="canvasLocation" x="138.61607142857142" y="111.59420289855073"/>
         </scene>
+        <!--Credit View Contoller-->
+        <scene sceneID="L29-tb-OTB">
+            <objects>
+                <viewController id="8wI-Za-xe4" customClass="CreditViewContoller" customModule="UpDownGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5lc-pz-gUu">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sax-wt-bNH">
+                                <rect key="frame" x="71" y="25" width="26" height="25"/>
+                                <state key="normal" image="xmark.circle" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="font" scale="large" weight="bold">
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                    </preferredSymbolConfiguration>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="meH-la-7VF">
+                                <rect key="frame" x="340" y="87" width="496" height="240"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Hello, World!
+
+I'm Woozzang!
+
+My Contacts:
+
+https://github.com/Woozzang
+
+https://woozzang.tistory.com
+</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Woochan_profile" translatesAutoresizingMaskIntoConstraints="NO" id="IDu-g8-8KI">
+                                <rect key="frame" x="71" y="-238.5" width="220" height="891"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="220" id="QuY-2L-tL3"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="0F6-4a-gkt"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="meH-la-7VF" firstAttribute="leading" secondItem="IDu-g8-8KI" secondAttribute="trailing" constant="49" id="2ao-gd-c8e"/>
+                            <constraint firstItem="Sax-wt-bNH" firstAttribute="leading" secondItem="0F6-4a-gkt" secondAttribute="leading" constant="27" id="7uo-Tl-taw"/>
+                            <constraint firstItem="meH-la-7VF" firstAttribute="centerY" secondItem="5lc-pz-gUu" secondAttribute="centerY" id="AHw-bS-TdW"/>
+                            <constraint firstItem="Sax-wt-bNH" firstAttribute="top" secondItem="0F6-4a-gkt" secondAttribute="top" constant="25" id="ZP5-cR-ufq"/>
+                            <constraint firstItem="0F6-4a-gkt" firstAttribute="trailing" secondItem="meH-la-7VF" secondAttribute="trailing" constant="16" id="fvW-ut-gZQ"/>
+                            <constraint firstItem="IDu-g8-8KI" firstAttribute="centerY" secondItem="5lc-pz-gUu" secondAttribute="centerY" id="g6W-l3-sEQ"/>
+                            <constraint firstItem="IDu-g8-8KI" firstAttribute="leading" secondItem="Sax-wt-bNH" secondAttribute="leading" id="pMx-6T-a2j"/>
+                            <constraint firstItem="meH-la-7VF" firstAttribute="top" secondItem="0F6-4a-gkt" secondAttribute="top" constant="87" id="zvl-br-Mf8"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="mma-ln-rww"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jcj-Hf-Sx2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="823.66071428571422" y="111.59420289855073"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="Woochan_profile" width="882" height="891"/>
         <image name="checkmark.seal.fill" catalog="system" width="128" height="128"/>
         <image name="info.circle" catalog="system" width="128" height="121"/>
         <image name="memories" catalog="system" width="128" height="110"/>
+        <image name="xmark.circle" catalog="system" width="128" height="121"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
