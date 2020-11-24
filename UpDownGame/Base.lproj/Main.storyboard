@@ -123,6 +123,7 @@
                         <outlet property="maximumValueLabel" destination="gGA-m9-r1s" id="FKv-q1-S8I"/>
                         <outlet property="minimumValueLabel" destination="ziH-Ut-G8F" id="jhY-TQ-CwJ"/>
                         <outlet property="slider" destination="Zc7-S7-JtT" id="ydc-AK-Fs3"/>
+                        <outlet property="thumbValueLabel" destination="lbR-5V-EH0" id="MV8-cp-fSS"/>
                         <outlet property="tryCountLabel" destination="yEI-vb-7Ix" id="zZL-Bs-yOv"/>
                         <outlet property="userValue" destination="lbR-5V-EH0" id="rOj-Z3-CLo"/>
                     </connections>
