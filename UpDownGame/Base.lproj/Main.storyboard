@@ -150,6 +150,9 @@
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                     </preferredSymbolConfiguration>
                                 </state>
+                                <connections>
+                                    <action selector="touchUpDismissButton:" destination="8wI-Za-xe4" eventType="touchUpInside" id="xA2-Aj-292"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="meH-la-7VF">
                                 <rect key="frame" x="340" y="87" width="496" height="240"/>
