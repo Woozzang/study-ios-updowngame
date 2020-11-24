@@ -29,10 +29,19 @@
                                     <action selector="touchUpHitButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4yl-5V-wKb"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lrI-CO-ieh">
+                                <rect key="frame" x="794" y="20" width="39" height="30"/>
+                                <state key="normal" title="Reset"/>
+                                <connections>
+                                    <action selector="touchUpResetButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UNY-ei-Hmz"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="lrI-CO-ieh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="2Ye-0h-hAn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lrI-CO-ieh" secondAttribute="trailing" constant="19" id="6BO-2l-dzO"/>
                             <constraint firstItem="Zc7-S7-JtT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="IXl-Iu-SZG"/>
                             <constraint firstItem="9zQ-9o-DH1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dRx-i2-CYI"/>
                             <constraint firstItem="9zQ-9o-DH1" firstAttribute="top" secondItem="Zc7-S7-JtT" secondAttribute="bottom" constant="40" id="jUQ-Zv-w7J"/>
